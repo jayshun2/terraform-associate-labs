@@ -1,0 +1,16 @@
+# Terraform state (never commit)
+*.tfstate
+*.tfstate.*
+
+# Provider plugins and module cache
+.terraform/
+
+# Crash logs
+crash.log
+
+# Local secrets
+.env
+
+# Variable files (may hold secrets); examples are allowed
+*.tfvars
+!*.tfvars.example
